@@ -1,0 +1,57 @@
+body{
+    background: #FF69B4;
+    font-size: 20pt;
+}
+h1{
+    color: #00FFFF;
+    font-family: "Times New Roman", Times, serif;
+}
+div{
+    background: #ADFF2F;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+div > p{
+    background: #F0FFFF;
+}
+a:link{
+    color: #90EE90; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: #44f3ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff0000;
+    background-color: lightblue;
+    text-decoration: underline;
+}
+a:active {
+    color: #ffff00;
+    background-color: transparent;
+    text-decoration: underline;
+}
+span:nth-child(2){
+    color: #ff0000;
+    background-color: #ffff00;
+}
+a{
+    font-style: italic;
+}
+a:first-of-type{
+    border-style: dotted;
+}
+a:last-of-type{
+    border-style: groove;
+}
+p#love{
+    font-size: 50pt;
+    height: 100px;
+    background: #ff0000;
+}
+p.first{
+    font-style: oblique;
+    width: 50%;
+}
